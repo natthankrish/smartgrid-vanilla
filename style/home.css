@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
+
 .cover-container {
     width: 100vw;
     height: 90vh;
