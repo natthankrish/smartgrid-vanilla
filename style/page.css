@@ -97,7 +97,47 @@ p {
     font-size: 1.2em;
 }
 
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.card-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25vw;
+}
+
+.card a {
+    background-color: #125d72;
+}
+
+@media only screen and (max-width: 1050px) {
+    .card {
+        width: 38vw;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    .card {
+        width: 80vw;
+    }
+
     .page-banner {
         height: 15vh;
     } 

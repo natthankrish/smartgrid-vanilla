@@ -1,5 +1,71 @@
 .footer-container {
     width: 100vw;
-    height: 30vh;
-    background-color: #14a2ba;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 10% 3%;
+    background-image: url("/smartgrid/assets/bg-footer.png");
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pln-data {
+    width: 40%;
+}
+
+.pln-link {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pln-link a {
+    color: white;
+}
+
+.pln-socmed {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pln-socmed a {
+    color: white;
+}
+
+.pln-data h1, .pln-link h5, .pln-socmed h5 {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+.pln-data h5 {
+    font-size: 0.9em;
+    color: white;
+}
+
+.pln-data h6 {
+    font-size: 0.9em;
+    color: white;
+}
+
+.footer-container hr {
+    border: 1px solid #fff;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.footer-container p {
+    width: 100%;
+    color: white;
+    text-align: center;
+
 }
