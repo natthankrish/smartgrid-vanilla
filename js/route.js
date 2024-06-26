@@ -30,7 +30,7 @@ const handleLocation = async () => {
     const html = await fetch(route).then((data) => data.text());
 
     if (path == "/smartgrid/journal" || path == "/smartgrid/journal/") {
-        let status = validateUser();
+        let status = await validateUser();
         if (!status) {
             window.location.href = '/smartgrid/login'; 
         }

@@ -15,7 +15,8 @@ export const loggingIn = async (username, password) => {
     const validPasswordHash = '15fd48e025d97a0e434022f1cdb65e4dd4b7020f38036bb4c1c9b43e2cb71db9';
 
     if (hashedUsername === validUsernameHash && hashedPassword === validPasswordHash) {
-        localStorage.setItem('isLoggedIn', 'true');
+        localStorage.setItem('username', username);
+        localStorage.setItem('password', password);
         window.location.href = '/smartgrid/journal'; 
     } else {
         document.getElementById("username").style.border = "2px solid red";
