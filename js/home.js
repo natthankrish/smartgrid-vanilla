@@ -158,13 +158,13 @@ export const setupHomePage = () => {
                 <div class="card-2">
                 <div class="card-body">
                     <h5 class="card-title">Journals</h5>
-                    <p class="card-text">See how we provide customers with real-time information about their electricity usage, billing, and service status. This transparency aims to enhance customer engagement, promote energy efficiency, and improve overall customer satisfaction.</p>
+                    <p class="card-text">Explore how we empower customers with real-time insights into their electricity usage, billing, and service status. This transparency fosters customer engagement, encourages energy efficiency, and boosts overall customer satisfaction.</p>
                 </div>
                 </div>
                 <div class="card-2">
                 <div class="card-body">
                     <h5 class="card-title">Related Documents</h5>
-                    <p class="card-text">See how we collect, analyze, and respond to feedback from our customers.</p>
+                    <p class="card-text">Discover our methods for gathering, analyzing, and acting on customer feedback.</p>
                 </div>
                 </div>
             </div>
