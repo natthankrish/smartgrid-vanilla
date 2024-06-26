@@ -5,6 +5,10 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: 40%;
     z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .login-container h2 {
@@ -43,4 +47,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 80%;
+        padding: 6% 3%;
+    }
 }

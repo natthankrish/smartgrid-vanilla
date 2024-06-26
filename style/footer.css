@@ -21,6 +21,12 @@
     width: 40%;
 }
 
+.pln-data>img {
+    max-width: 20vw;
+    max-height: 20vh;
+    object-fit: contain;
+}
+
 .pln-link {
     width: 20%;
     display: flex;
@@ -28,6 +34,10 @@
 }
 
 .pln-link a {
+    color: white;
+}
+
+.pln-link a:hover {
     color: white;
 }
 
@@ -40,6 +50,11 @@
 .pln-socmed a {
     color: white;
 }
+
+.pln-socmed a:hover {
+    color: white;
+}
+
 
 .pln-data h1, .pln-link h5, .pln-socmed h5 {
     font-size: 1em;
@@ -68,4 +83,31 @@
     color: white;
     text-align: center;
 
+}
+
+@media only screen and (max-width: 768px) {
+    .pln-data>img {
+        max-width: 40vw;
+        max-height: 20vh;
+        object-fit: contain;
+    }
+
+    .footer-content {
+        margin-top: 5%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .pln-data {
+        width: 100%;
+    }
+    
+    .pln-link {
+        width: 100%;
+    }
+
+    .pln-socmed {
+        width: 100%;
+    }
 }

@@ -127,9 +127,16 @@ p {
     background-color: #125d72;
 }
 
+.card a:hover {
+    background-color: white;
+    color: #125d72;
+    border: 2px solid #125d72;
+}
+
 @media only screen and (max-width: 1050px) {
     .card {
         width: 38vw;
+        height: 30vh;
     }
 }
 
