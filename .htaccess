@@ -1,11 +1,11 @@
 RewriteEngine On
 
-# Serve existing files and directories directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} ^/smartgrid/doc
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
+
+RewriteCond %{REQUEST_FILENAME} -f 
 RewriteRule ^ - [L]
 
-RewriteRule ^smartgrid/doc/ /index.html [L]
-
-# Redirect all other requests to index.html
 RewriteRule ^ index.html [L]

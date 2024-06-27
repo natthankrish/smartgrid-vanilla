@@ -22,13 +22,15 @@ const routes = {
     "/smartgrid/login": "/smartgrid/page/login.html",
     "/smartgrid/login/": "/smartgrid/page/login.html",
     "/smartgrid/journal": "/smartgrid/page/journal.html",
-    "/smartgrid/journal/": "/smartgrid/page/journal.html"
+    "/smartgrid/journal/": "/smartgrid/page/journal.html",
+    404: "/smartgrid/page/404.html"
 };
 
 const handleLocation = async () => {
     const path = window.location.pathname;
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
+    console.log(path, route);
 
     if (path === "/smartgrid/journal" || path === "/smartgrid/journal/" || path.startsWith("/smartgrid/doc")) {
         const status = await validateUser();
