@@ -17,7 +17,7 @@ export const loggingIn = async (username, password) => {
     if (hashedUsername === validUsernameHash && hashedPassword === validPasswordHash) {
         localStorage.setItem('username', username);
         localStorage.setItem('password', password);
-        window.location.href = '/smartgrid/journal'; 
+        window.location.href = '/journal'; 
     } else {
         document.getElementById("username").style.border = "2px solid red";
         document.getElementById("password").style.border = "2px solid red";

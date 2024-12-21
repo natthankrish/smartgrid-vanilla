@@ -49,7 +49,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/automated-monitoring-control">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/automated-monitoring-control">See More</a>`;
         } else if (currentNav === 2) {
             content = `
             <div class='item-container'>
@@ -66,7 +66,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/data-analytics">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/data-analytics">See More</a>`;
         } else if (currentNav === 3) {
             content = `
             <div class='item-container'>
@@ -83,7 +83,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/supply-reliability">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/supply-reliability">See More</a>`;
         } else if (currentNav === 4) {
             content = `
             <div class='item-container'>
@@ -100,7 +100,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/distributed-energy-resources-integration">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/distributed-energy-resources-integration">See More</a>`;
         } else if (currentNav === 5) {
             content = `
             <div class='item-container'>
@@ -117,7 +117,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/green-energy">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/green-energy">See More</a>`;
         } else if (currentNav === 6) {
             content = `
             <div class='item-container'>
@@ -134,7 +134,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/cyber-security-measures">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/cyber-security-measures">See More</a>`;
         } else if (currentNav === 7) {
             content = `
             <div class='item-container'>
@@ -151,7 +151,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/customer-empowerment-and-satisfaction">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/customer-empowerment-and-satisfaction">See More</a>`;
         } else if (currentNav === 8) {
             content = `
             <div class='item-container'>
@@ -168,7 +168,7 @@ export const setupHomePage = () => {
                 </div>
                 </div>
             </div>
-            <a class='button-2' id="see-more-button" href="/smartgrid/journal">See More</a>`;
+            <a class='button-2' id="see-more-button" href="/journal">See More</a>`;
         }
 
         itemDisplay.innerHTML = content;
